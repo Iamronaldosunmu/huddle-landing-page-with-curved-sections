@@ -49,5 +49,22 @@ html {
 .btn--nav {
   border: 2px solid pink;
   padding: 0.6rem 2.2rem;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 135px;
+  }
+}
+/* Navigation */
+.navigation {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
