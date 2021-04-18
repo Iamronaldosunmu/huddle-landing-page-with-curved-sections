@@ -9,3 +9,45 @@
 html {
   font-size: 62.5%;
 }
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+}
+.btn--round {
+  border-radius: 30px;
+}
+.btn--square {
+  border-radius: 7px;
+}
+.btn--pink {
+  background: var(--pink);
+}
+.btn--light-pink {
+  background: var(--light-pink);
+}
+.btn--white {
+  background: white;
+}
+.btn--big {
+  padding: 2rem 5rem;
+
+  font-size: 1.8rem;
+}
+.btn--small {
+  font-size: 1.3rem;
+}
+.btn--shadow {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+.white__text {
+  color: white;
+}
+.pink__text {
+  color: pink;
+}
+.btn--nav {
+  border: 2px solid pink;
+  padding: 0.6rem 2.2rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
