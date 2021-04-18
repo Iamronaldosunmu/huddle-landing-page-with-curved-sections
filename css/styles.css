@@ -116,3 +116,16 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+/* Grids */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
