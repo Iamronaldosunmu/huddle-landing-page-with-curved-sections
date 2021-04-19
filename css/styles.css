@@ -48,7 +48,7 @@ section {
   font-size: 1.3rem;
 }
 .btn--shadow {
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 7px rgba(0, 0, 0, 0.2);
 }
 .white__text {
   color: white;
@@ -206,4 +206,9 @@ section {
 }
 .content__body {
   font-size: 1.2rem;
+}
+
+/* Callout Section */
+.block--callout {
+  text-align: center;
 }
