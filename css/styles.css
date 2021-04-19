@@ -212,3 +212,35 @@ section {
 .block--callout {
   text-align: center;
 }
+/* Media Component */
+.media {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.media p {
+  margin: 0;
+}
+.media img {
+  height: 1.5rem;
+  margin-right: 1.5rem;
+}
+.about {
+  background: var(--very-dark-cyan);
+  color: white;
+}
+.about > p {
+  max-width: 250px;
+}
+.svg__image {
+  width: 200px;
+}
+.media-group {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.social-icons {
+  width: 25px;
+  margin-right: 0.8rem;
+}
