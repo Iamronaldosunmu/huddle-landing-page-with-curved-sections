@@ -190,7 +190,7 @@ section {
 .content__heading {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 34px;
 }
 @media screen and (min-width: 768px) {
   .content {
@@ -207,7 +207,7 @@ section {
   max-width: 300px;
 }
 .content__body {
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 
 /* Callout Section */
