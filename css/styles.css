@@ -190,6 +190,7 @@ section {
 .content__heading {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  font-size: 30px;
 }
 @media screen and (min-width: 768px) {
   .content {
@@ -273,10 +274,18 @@ form .btn {
 /* Styles for the newsletter */
 .newsletter {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .newsletter p {
   max-width: 250px;
 }
+.newsletter h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
 .footer {
   background: var(--very-dark-cyan);
 }
